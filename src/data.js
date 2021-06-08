@@ -1,4 +1,6 @@
-const images = [
+// import React, { Component } from 'react';
+
+const animalData = [
     {
       url:
         "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
@@ -160,5 +162,33 @@ const images = [
       horns: 100
     }
   ];
+
+  export default animalData;
   
-  export default images;
+// export default class image extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 <label>
+//                     <select>
+//                         <option value="1">
+//                             1 horn
+//                         </option>
+//                         <option value="2">
+//                             2 horns
+//                         </option>
+//                         <option value="3">
+//                             3 horns
+//                         </option>
+//                         <option value="100">
+//                             Too many horns
+//                         </option>
+//                     </select>
+//                 </label>
+//                 {
+//                     images.map(image => )
+//                 }
+//             </div>
+//         )
+//     }
+// }
