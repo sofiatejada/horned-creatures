@@ -1,17 +1,14 @@
 import React, { Component } from 'react'
-import images from './data.js';
 import ImageItem from './image-item.js';
 
 export default class ImageList extends Component {
     render() {
+        console.log(this.props.animal);
         return (
             <div>
-                <select>
-                    {images.map((item) => <ImageItem animal={item.title} />)}
-                </select>
+                {/* <ImageItem animal={this.props.animal} /> */}
+                {this.props.animal.map(item => <ImageItem booger={item} />)}
             </div>
         )
     }
 }
-
-{/* <option>{images.map((item) => <ImageItem animal={item.title} />)}</option> */}
