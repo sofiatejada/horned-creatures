@@ -6,7 +6,7 @@ export default class ImageItem extends Component {
         console.log(this.props.booger);
         return (
             <div>
-                <img src={this.props.booger.url} alt="an animal" />
+                <img width="50px" src={this.props.booger.url} alt="an animal" />
                 <h4>{this.props.booger.title}</h4>
                 <h6>{this.props.booger.horns}</h6>
                 <p>{this.props.booger.description}</p>
